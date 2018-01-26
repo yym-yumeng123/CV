@@ -1,6 +1,6 @@
 # 杨雨蒙的个人简历
 ## 个人主页地址
-https://greygao.github.io/resume/index.html
+https://yym-yumeng123.github.io/CV/
 
 ## 个人信息
 
@@ -14,22 +14,15 @@ GitHub: https://github.com/yym-yumeng123
 
 ## 项目经历
 
-1.Nintendo Switch官网页面重制（最简单页面）
+1. Bootstrap 官网静态页面
 
-​	使用媒体查询、Flex 布局制作的[响应式页面](https://greygao.github.io/SimpleDemos/Prc13-1.html)。
+2. 纯css手写皮卡丘
 
-2.一个苹果iOS风格的轮播组件（轮播）
-​	使用 jQuery 制作的苹果风格[轮播](https://greygao.github.io/hello-world/Prc26-2-AppleInc_Slider/Prc26-2.html)。
+3. CSS3动画
 
-3.一个手机端画板小工具（Canvas画图）
+4. 原生javascript写的组件
 
-​	使用JS、借助Canvas API和动态REM方案（flexible.js）制作的[手机画板](https://greygao.github.io/hello-world/Prc34-1-canvas/Prc34-1.html)。
-
-4.英雄联盟（LOL）官网仿制
-
-​	使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原[英雄联盟官网](https://github.com/frankfang)。
-
-5.自制 DOM 库、BOM 库、jQuery 库
+5. 个人写的node小应用,发布到npm
 
 
 ### 为什么转前端
@@ -39,7 +32,7 @@ GitHub: https://github.com/yym-yumeng123
 
 ## 我的技能
 
-- 静态页面制作技术，熟练掌握HTML5、CSS3
+- 静态页面制作技术，掌握HTML5、CSS3
   - 像素级还原设计稿，可以实现响应式以适应手机屏幕。
   - CSS 3 动画、Flex 布局、CSS 2 布局
 - 熟练掌握原生JavaScript
@@ -61,15 +54,10 @@ GitHub: https://github.com/yym-yumeng123
 
 ## 更多链接
 
-- [我的主页](#)
+- [我的简书](https://www.jianshu.com/u/5802949cb777)
 
-- [我的 GitHub](https://github.com/yym-yumeng123)
+- [我的博客](https://github.com/yym-yumeng123/blog)
 
-- [我的博客](https://github.com/issues)
-
-- [我的 Demos](#)
-
-  ​
 
 ## 为什么是我
 
@@ -80,9 +68,13 @@ GitHub: https://github.com/yym-yumeng123
 
 
 ## 项目描述
-
-1. 这是一个非官方的网易云音乐手机端播放页面应用。能够实现曲库列表实时更新、搜索数据请求、歌曲播放、暂停、重新播放等效果。
+1. 这是一个vue框架重构的项目
+2. 这是一个网易云音乐手机端播放页面应用。能够实现曲库列表实时更新、搜索数据请求、歌曲播放、暂停、重新播放等效果。
    - 功能：歌曲播放、曲库搜索、歌词滚动
    - 部署：LeanCloud + 七牛云
    - 技术：原生JS + jQuery + Gulp /  webpack
      难点：搜索栏体验和逻辑的优化。后来重新将JS代码进行功能化、模块化重构，不同分支尝试使用Gulp/RequireJS两种方式处理工作流文件，最终使用webpack打包.
+     
+3. 这是一个node配合express框架写的一个在线便利贴,能够实现移动、删除、增加、登录账号、保存数据、瀑布流等效果的应用
+4. 这是一个个人FM音乐电台播放器
+5. 应用豆瓣api显示电影top250的排行榜,可以搜索电影,查看北美比较热的电影
