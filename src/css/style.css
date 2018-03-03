@@ -88,6 +88,16 @@ main{
     width: 2px;
 	background:#CA4F6B;
 }
+
+.whyme {
+	font-weight: bold;
+}
+.des {
+	text-indent: 2em;
+}
+
+
+
 .experItem>.components h5{
 	display:block;
 	font-size: 16px;
