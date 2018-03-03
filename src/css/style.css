@@ -312,18 +312,28 @@ figure.title{
 .todolist,
 .moshou,
 .resumer,
-.index,
-.weather{
+.index{
 	width:600px;
 	margin:10px 0;
 	box-shadow: 2px 2px 3px #ccc,
 				-2px -2px 3px #ccc;
 }
+.weather {
+	width:250px;
+	margin:10px 0;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.weather>img{
+	width:100%;
+}
 .todolist>img,
 .moshou>img,
 .resumer>img,
-.index>img,
-.weather>img{
+.index>img{
 	width:100%;
 }
 
@@ -339,6 +349,7 @@ figure.title{
 	justify-content: flex-start;
 	align-items: center;
 	height: 30px;
+	font-weight: bold;
 }
 .experience h4>span{
 	display: inline-block;
@@ -356,6 +367,7 @@ figure.title{
     border-radius: 5px;
     margin-left: 7px;
 }
+
 .experience .icon-link{
 	font-family: fontello;
     font-style: normal;
@@ -371,7 +383,16 @@ figure.title{
     margin-left: .2em;
     -webkit-font-smoothing: antialiased;
 }
-
+.experience p {
+	margin-top: 10px;
+}
+.experience .stack {
+	font-weight: bold;
+	color: #000;
+}
+.experience .experItem {
+	margin-bottom: 15px;
+}
 .pro-title{
 	/* height:30px; */
 	margin:8px 0;
