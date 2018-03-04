@@ -36,7 +36,13 @@ a{
 }
 p{
 	line-height:1.5;
+	/*text-indent: 2em;*/
 }
+strong {
+	color: #0657a6;
+}
+
+
 .clearfix::after{
 	content: '';
 	display: block;
@@ -65,7 +71,7 @@ main{
 	left:0;
 	top:0;
 	bottom:0;
-	width: 300px;
+	width: 330px;
 	padding:15px 20px 15px 15px;
 	color:#333;
 	box-sizing:border-box;
@@ -95,7 +101,9 @@ main{
 .des {
 	text-indent: 2em;
 }
-
+.indent {
+	text-indent: 2em;
+}
 
 
 .experItem>.components h5{
@@ -127,8 +135,8 @@ section>figure{
 }
 .right{
 	position: relative;
-	left:300px;
-	width: 750px;
+	left:330px;
+	width: 720px;
 	box-sizing:border-box;
 	padding:20px 20px  30px
 }
@@ -152,7 +160,7 @@ section>figure{
 	align-items: stretch;
 }
 .left>.title{
-	height:282px;
+	height:150px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	justify-content:space-around;
@@ -256,7 +264,7 @@ section>figure{
 	color: #29B5F5;
 }
 figure.title{
-	margin:15px auto;
+	margin:0 auto;
 }
 .title>.img-ct{
 	width:100px;
