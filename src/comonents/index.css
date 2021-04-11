@@ -1,0 +1,11 @@
+.left {
+  background: #f3f3f3;
+}
+.left .header {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.right {
+  background: pink;
+}

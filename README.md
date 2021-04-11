@@ -1,54 +1,70 @@
-# 杨雨蒙的个人简历
+# Getting Started with Create React App
 
-## 个人信息
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-杨雨蒙  |  1994年生  |  前端工程师 
+## Available Scripts
 
-QQ: 1614527443
+In the project directory, you can run:
 
-邮箱: 18026493873@163.com
+### `yarn start`
 
-GitHub: https://github.com/yym-yumeng123
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### 为什么转前端
+### `yarn test`
 
-1. 在经过几年的工作中，逐渐认识到自己希望成为一个纯粹的软件工程师，决定从前端开始，专注拓展计算机方向深度，成为一名不限于前端的专业程序员；
-2. 平时生活中对审美和品味有着较高的要求和偏好，注重视觉效果和产品交互，所以希望利用自己所长，不断学习，做出更好的产品。
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## 我的技能
+### `yarn build`
 
-- 静态页面制作技术，掌握HTML5、CSS3
-  - 像素级还原设计稿，可以实现响应式以适应手机屏幕。
-  - CSS 3 动画、Flex 布局、CSS 2 布局
-- 熟练掌握原生JavaScript
-  - 理解概念如：原型、作用域链，闭包、面向对象、异步流程控制等。
-  - 能够进行模块化编程，使用Gulp、RequireJS、webpack等多种方式处理工作流
-  - 能够对复杂函数进行功能化封装，并编写类似jQuery常用的基本功能性插件
-  - 熟悉ES6的部分特性
-- 移动端页面
-  - 熟悉手机端页面的开发流程
-  - 能够使用动态 REM 适配手机屏幕
-- 能够与后端良好的配合开发
-  - 了解 HTTP 协议，熟悉掌握AJAX请求
-  - 了解并运用过两种跨域策略CORS和JSONP
-  - 熟悉运用懒加载、预加载等性能优化策略
-- 学习能力强，对于新技术、新方式会尽可能快速掌握
-  - 对算法基础有浓厚兴趣，正在恶补中
-  - 未来一年掌握一门后端语言或node
-- 热爱优雅、简洁的代码方式，注重易读性强，不炫技，一切以配合团队工作为主。
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 更多链接
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- [我的简书](https://www.jianshu.com/u/5802949cb777)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- [我的博客](https://github.com/yym-yumeng123/blog)
+### `yarn eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-## 为什么是我
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- 具有良好的审美，热爱乒乓球、音乐,对视觉效果敏感度很高；
-- 热爱钻研复杂、有逻辑的事物，有耐心，可以持续投入研究某样东西；
-- 良好的学习习惯，自学能力强，工作之外热爱学习自己喜欢的东西,喜欢尝试新事物；
-- 接下来的阶段里，会持续强化对计算机基础、后端知识的补足，去深刻理解一个产品的全生命周期。
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
