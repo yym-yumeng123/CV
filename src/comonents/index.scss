@@ -1,3 +1,30 @@
+.bottom {
+  margin-bottom: 16px;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h4 {
+  color: #ca4f6b;
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid #29b5f5;
+  margin-bottom: 16px;
+}
+
+strong {
+  color: #0657a6;
+  font-weight: 600;
+}
+
+a {
+  color: #0657a6;
+}
+
 .left {
   padding: 0 8px;
   .header {
@@ -28,20 +55,32 @@
   }
 }
 
-h3 {
-  color: #333;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-h4 {
-  color: #CA4F6B;
-  font-weight: bold;
-  font-size: 20px;
-  border-bottom: 1px solid #29B5F5;
-}
-
 .right {
   .info {
+    font-size: 16px;
+    &-content {
+      .item {
+        .label {
+          display: inline-block;
+          min-width: 80px;
+        }
+      }
+    }
+  }
+
+  .skill {
+    .content {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  .work {
+    .content {
+      h5 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
   }
 }

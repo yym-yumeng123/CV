@@ -24,7 +24,7 @@ const Left = () => {
   return (
     <div className='left'>
       <div className='header'>
-        <h1>杨雨蒙</h1>
+        <h1>杨雨蒙|男|1994</h1>
         <p>前端开发工程师</p>
       </div>
       <div className='main'>
