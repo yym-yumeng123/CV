@@ -22,7 +22,7 @@ const Right = () => {
               在这里工作两年办的时间： 完成前端页面 100+，开发过多个系统模块
             </p>
             <br />
-            <div className='experience-item'>
+            <div className='experience-item' style={{ marginBottom: "200px" }}>
               <p className='ex-title'>项目1: Askbob人工智能问答系统</p>
               <ul className='list'>
                 <li>
@@ -46,7 +46,8 @@ const Right = () => {
                 <li>5、完善人工智能系统 ToC 模块， 搭建用户和系统的对话系统</li>
               </ul>
             </div>
-            <div className='experience-item'>
+            <br />
+            <div className='experience-item zxzj'>
               <p className='ex-title'>
                 项目2: 专项资金 用户可以审批客户提交的事项
               </p>
