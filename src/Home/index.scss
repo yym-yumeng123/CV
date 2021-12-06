@@ -18,11 +18,18 @@ h4 {
 
 strong {
   color: #0657a6;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 a {
   color: #0657a6;
+}
+
+.list {
+  text-indent: 2em;
+  li {
+    font-size: 16px;
+  }
 }
 
 .left {
@@ -56,23 +63,9 @@ a {
 }
 
 .right {
-  .info {
-    font-size: 16px;
-    &-content {
-      .item {
-        .label {
-          display: inline-block;
-          min-width: 80px;
-        }
-      }
-    }
-  }
-
-  .skill {
-    .content {
-      p {
-        font-size: 16px;
-      }
+  .content {
+    p {
+      font-size: 16px;
     }
   }
   .work {

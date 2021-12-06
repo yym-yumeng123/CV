@@ -1,6 +1,6 @@
-import Left from "./comonents/left"
-import Right from "./comonents/right"
-import { Row, Col, Divider } from "antd"
+import Left from "./Home/left"
+import Right from "./Home/right"
+import { Row, Col } from "antd"
 import "./App.css"
 
 function App() {

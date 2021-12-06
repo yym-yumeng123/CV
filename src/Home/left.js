@@ -14,17 +14,15 @@ const Left = () => {
       value: "18026493873@163.com",
     },
     {
-      label: '微信号',
-      value: 'yumengYang94'
-    }
+      label: "微信号",
+      value: "yumengYang94",
+    },
   ]
-
-
 
   return (
     <div className='left'>
       <div className='header'>
-        <h1>杨雨蒙|男|1994</h1>
+        <h1>杨雨蒙</h1>
         <p>前端开发工程师</p>
       </div>
       <div className='main'>
@@ -41,8 +39,6 @@ const Left = () => {
             })}
           </div>
         </div>
-
-
       </div>
     </div>
   )
