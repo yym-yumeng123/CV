@@ -35,9 +35,20 @@ const Skill = () => {
           <Timeline.Item>
             <h3>React/React Hooks</h3>
             <p>
-              了解并使用过 <strong>React Class 和 React Hooks</strong>
+              熟练掌握并使用过 <strong>React Class 和 React Hooks</strong>
               开发项目， 并手写 <strong>React + TypeScript UI 组件</strong>
             </p>
+          </Timeline.Item>
+          <Timeline.Item>
+            <h3>Git/Webpack</h3>
+            <p>
+              了解如何使用 <strong>Git</strong> 来管理代码版本, 回滚代码,
+              以及创建多个分支等; 了解使用 <strong>Webpack</strong> 模块打包工具
+            </p>
+          </Timeline.Item>
+          <Timeline.Item>
+            <h3>HTTP</h3>
+            <p>了解http协议，能够根据http请求报文、响应报文和状态码排查问题</p>
           </Timeline.Item>
         </Timeline>
       </div>

@@ -7,10 +7,10 @@ function App() {
   return (
     <div className='App'>
       <Row gutter={16}>
-        <Col span={6}>
+        <Col span={7}>
           <Left />
         </Col>
-        <Col span={18}>
+        <Col span={17}>
           <Right />
         </Col>
       </Row>

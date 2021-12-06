@@ -37,7 +37,11 @@ a {
   padding: 0 8px;
   background-color: #29b5f5;
   .header {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
     h1 {
       font-size: 25px;
       font-weight: bold;
@@ -50,15 +54,41 @@ a {
   }
   .main {
     margin-top: 16px;
+    margin-left: 16px;
     .concat {
       h3 {
         border-bottom: 1px solid #333;
       }
       .content {
+        font-size: 16px;
         .label {
           display: inline-block;
-          min-width: 50px;
+          min-width: 60px;
         }
+      }
+    }
+    .others {
+      margin-top: 16px;
+      h3 {
+        border-bottom: 1px solid #333;
+      }
+      &-item {
+        margin-top: 10px;
+        h5 {
+          font-size: 17px;
+          font-weight: 500;
+        }
+      }
+    }
+    .education {
+      margin-top: 16px;
+
+      h3 {
+        border-bottom: 1px solid #333;
+      }
+      p {
+        font-size: 16px;
+        margin-top: 16px;
       }
     }
   }
@@ -79,8 +109,23 @@ a {
     }
   }
   .project {
-    p {
-      font-size: 16px;
+    .experience-item {
+      margin-top: 10px;
+      .ex-title {
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .list {
+        margin-left: 2em;
+        text-indent: 0;
+        li {
+          // display: inline-flex;
+          // .label {
+          //   display: flex;
+          //   flex-wrap: nowrap;
+          // }
+        }
+      }
     }
   }
 }

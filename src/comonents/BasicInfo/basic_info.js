@@ -9,7 +9,7 @@ const infos = [
   },
   {
     label: "工作经验",
-    value: "3年",
+    value: "3年半",
     link: false,
   },
   {
