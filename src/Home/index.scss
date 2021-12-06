@@ -33,7 +33,9 @@ a {
 }
 
 .left {
+  height: 100%;
   padding: 0 8px;
+  background-color: #29b5f5;
   .header {
     text-align: center;
     h1 {
@@ -74,6 +76,11 @@ a {
         font-size: 18px;
         font-weight: 600;
       }
+    }
+  }
+  .project {
+    p {
+      font-size: 16px;
     }
   }
 }
