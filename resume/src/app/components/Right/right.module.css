@@ -1,0 +1,11 @@
+.project_title {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.skill .ant-timeline {
+  border: 1px solid red;
+}
+.time .ant-timeline-item {
+  border: 1px solid green;
+}

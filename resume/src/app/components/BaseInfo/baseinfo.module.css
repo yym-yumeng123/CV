@@ -1,0 +1,9 @@
+.info {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.info_content .item .label {
+  display: inline-block;
+  min-width: 80px;
+}
