@@ -3,6 +3,10 @@
   margin-bottom: 16px;
 }
 
+.info_content {
+  font-size: 14px;
+}
+
 .info_content .item .label {
   display: inline-block;
   min-width: 80px;
