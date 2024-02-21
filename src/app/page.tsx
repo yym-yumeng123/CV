@@ -7,10 +7,10 @@ export default function Home() {
   return (
     <main className={styles.app}>
       <Row gutter={16}>
-        <Col span={7}>
+        <Col span={6}>
           <Left />
         </Col>
-        <Col span={17}>
+        <Col span={18}>
           <Right />
         </Col>
       </Row>

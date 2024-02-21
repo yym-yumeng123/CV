@@ -65,8 +65,8 @@ export default function Left() {
         <section className={styles.section}>
           <h3>自我评价</h3>
           <ul>
-            <li>1. 有良好的沟通协调能力, 积极接受新事物, 学习新的技术</li>
-            <li>2. 有耐心, 能够坚持不移的完善自己的开源项目</li>
+            <li>1. 有良好的沟通协调能力, 积极接受新事物</li>
+            <li>2. 持续学习的能力, 遇到新事物能够快速上手</li>
           </ul>
         </section>
 
