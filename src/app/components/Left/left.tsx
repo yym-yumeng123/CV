@@ -63,6 +63,14 @@ export default function Left() {
         </section>
 
         <section className={styles.section}>
+          <h3>自我评价</h3>
+          <ul>
+            <li>1. 有良好的沟通协调能力, 积极接受新事物, 学习新的技术</li>
+            <li>2. 有耐心, 能够坚持不移的完善自己的开源项目</li>
+          </ul>
+        </section>
+
+        <section className={styles.section}>
           <h3>教育背景</h3>
           <p>芜湖联大/专科(2012.9-2015.6)</p>
         </section>

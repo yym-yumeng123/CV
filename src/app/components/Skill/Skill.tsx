@@ -68,17 +68,6 @@ const Skill: FC = () => {
               {
                 children: (
                   <>
-                    <h3>HTTP</h3>
-                    <p>
-                      了解http协议,
-                      能够根据http请求报文、响应报文和状态码排查问题
-                    </p>
-                  </>
-                ),
-              },
-              {
-                children: (
-                  <>
                     <h3>Git/Webpack</h3>
                     <p>
                       熟悉 <strong>Git</strong> 操作, 使用 Git 来进行协同开发;

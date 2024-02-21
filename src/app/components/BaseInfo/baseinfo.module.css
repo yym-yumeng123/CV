@@ -7,7 +7,24 @@
   font-size: 14px;
 }
 
+.info_content .item {
+  display: flex;
+  justify-content: flex-start;
+  height: 20px;
+}
+
 .info_content .item .label {
   display: inline-block;
-  min-width: 80px;
+  width: 60px;
+  text-align: justify;
+}
+
+.info_content .item .label::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.info_content .item .value {
+  margin-left: 16px;
 }
